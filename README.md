@@ -9,3 +9,6 @@
 > unofficial groups.
 > Groups should be able to be public as well to allow people from outside
 > of the users domain to see them.
+
+> Obvious emails that should have all public groups
+>   gmail.com, yahoo.com, outlook.com, hotmail.com, icloud.com
