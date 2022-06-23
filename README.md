@@ -1,5 +1,6 @@
 # SOSH
-> A social media application where users are split up by domain.
+
+## A social media application where users are split up by domain
 
 > Allows businesses and groups to easily start a workspace to share news
 > and things according to the domain of the users email.
@@ -11,4 +12,4 @@
 > of the users domain to see them.
 
 > Obvious emails that should have all public groups
->   gmail.com, yahoo.com, outlook.com, hotmail.com, icloud.com
+>-   gmail.com, yahoo.com, outlook.com, hotmail.com, icloud.com
