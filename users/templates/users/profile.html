@@ -1,0 +1,13 @@
+<form method="post">
+  {% csrf_token %}
+  {% for field in user_form %}
+    {% if field.id_for_label != "id_password1" and field.id_for_label != "id_password2" %}
+        {{ field.label }} {{ field }}
+        {% if field.help_text %}
+            <p class="help">{{ field.help_text|safe }}</p>
+        {% endif %}
+    {% endif %}
+  {% endfor %}
+  {{ profile_form.as_p }}
+  <button type="submit">Save changes</button>
+</form>
